@@ -18,7 +18,7 @@ namespace Darwin
         private void InterruptButton_Click(object sender, RoutedEventArgs e)
         {
             System.Media.SoundPlayer player = new System.Media.SoundPlayer();
-            player.SoundLocation = @".\Sounds\01.wav";
+            player.SoundLocation = @".\Sounds\02.wav";
             player.Load();
             player.Play();
         }
