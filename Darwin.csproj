@@ -5,10 +5,24 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Icons\Iconsmind-Outline-Headset.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Iconsmind-Outline-Headset.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Icons\Iconsmind-Outline-Headset.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
     <Folder Include="Sounds\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Iconsmind-Outline-Headset.ico" />
   </ItemGroup>
 
   <ItemGroup>
@@ -16,6 +30,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Sounds\02.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Sounds\03.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

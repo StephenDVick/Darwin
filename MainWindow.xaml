@@ -5,9 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Darwin"
         mc:Ignorable="d"
-        Title="Darwin Speaks!" Height="128" Width="256" ResizeMode="NoResize" Topmost="True" SizeToContent="WidthAndHeight" WindowStyle="ToolWindow" AutomationProperties.IsOffscreenBehavior="Onscreen" IsManipulationEnabled="True" Margin="10,10,10,10" MinHeight="64" MinWidth="128" MaxWidth="256" MaxHeight="128" IsTabStop="False">
+        Title="Darwin Speaks!" Height="128" Width="256" ResizeMode="NoResize" Topmost="True" SizeToContent="WidthAndHeight" AutomationProperties.IsOffscreenBehavior="Onscreen" IsManipulationEnabled="True" Margin="0,0,0,0" MinHeight="64" MinWidth="128" MaxWidth="256" MaxHeight="128" IsTabStop="False" WindowStyle="ToolWindow" Icon="/Iconsmind-Outline-Headset.ico">
     <Viewbox Stretch="Fill">
         <Button x:Name="InterruptButton" Content="Interrupt" Height="64" Width="128" Click="InterruptButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-
     </Viewbox>
 </Window>
